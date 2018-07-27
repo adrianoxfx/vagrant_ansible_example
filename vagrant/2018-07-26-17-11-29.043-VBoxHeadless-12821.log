@@ -1,0 +1,10 @@
+Log created: 2018-07-26T17:11:29.431400000Z
+Executable: /usr/lib/virtualbox/VBoxHeadless
+Arg[0]: /usr/lib/virtualbox/VBoxHeadless
+Arg[1]: --comment
+Arg[2]: vagrant_db01_1532614747702_40395
+Arg[3]: --startvm
+Arg[4]: 2d7c15a7-d345-4871-a853-6e2ab0abf776
+Arg[5]: --vrde
+Arg[6]: config
+AddRef: illegal refcnt=3221225469 state=2
