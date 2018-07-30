@@ -12,3 +12,6 @@ ansible -m ping all
 
 Command
 ansible -m command -a "hostname" all
+
+Run Playbook
+ansible-playbook file.yml
