@@ -41,13 +41,11 @@ EOF
   end
 
   config.vm.define "app01" do |h|
-    h.vm.hostname = "app01"
     h.vm.network "private_network", ip: "192.168.135.111"
     h.vm.provision :shell, inline: 'cat /vagrant/control.pub >> /home/vagrant/.ssh/authorized_keys'
   end
 
   config.vm.define "app02" do |h|
-    h.vm.hostname = "app02"
     h.vm.network "private_network", ip: "192.168.135.112"
     h.vm.provision :shell, inline: 'cat /vagrant/control.pub >> /home/vagrant/.ssh/authorized_keys'
   end
